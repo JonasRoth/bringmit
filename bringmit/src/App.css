@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style the header */
+.mainheader {
+  padding: 10px 0px;
+  background: #fff7ed;
+  color: #5c1b0c;
+  width: 100%;
+}
+
+
+
+/* Main Page Content */
+.maincontent {
+  padding: 16px;
+}
+
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+/*.sticky + .maincontent {
+  padding-top: 102px;
+}*/
